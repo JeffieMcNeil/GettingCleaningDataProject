@@ -54,7 +54,7 @@ This file is presented in the **wide format** (one of the two options for the pr
 
 The course project required that we "appropriately labels the data set with descriptive variable names" but the meaning of this could be interpreted in many ways. Material presented in the class suggested that variable names should be lower case, written out rather than abbreviated, and not separated by special characters such as dots, underscores or dashes. However, variable names in this project are very complex and following the guidelines 'as is' resulted in variable names that were difficult to read. Because of this I decided to go with descriptors separated by dots (.) to increase the readability of the names. 
 
-Separating variable names by periods is the preferred method recommended by [**Google's R Style Guide**](https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml). This method is fairly common; over 80% of parameter names on CRAN were found to be using period separated names (Baath 2012*). 
+Separating variable names by periods is the preferred method recommended by [**Google's R Style Guide**](https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml). This method is fairly common; over 80% of parameter names on CRAN were found to be using period separated names (Baath 2012*).  As per the [recommendation of one of the community TAs](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/), no attempt was made to decompose the variable names as this would result in NAs and may be more confusing to the reviewer.
 
 Baath, R. 2012. The State of Naming Conventions in R. The R Journal 4(2): 74:75.
 
