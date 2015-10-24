@@ -10,7 +10,7 @@ Course project for Coursera's Getting and Cleaning Data course
     
 ## Explanation of the run_analysis.R script
 
-This script performs several tasks to take the given multifile dataset, consolidate it into a single file with descriptive file names and generate a new file called **SamsungMeans.txt**. In order, the basic tasks are:
+This script performs several tasks to take the given multifile dataset, consolidate it into a single file with descriptive file names and generate a new file called **SamsungTidyMeans.txt**. In order, the basic tasks are:
 
 
 1. Check for the packages used in this script (plyr, dplyr and tidyr) and load them into the library. 
