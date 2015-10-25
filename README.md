@@ -42,11 +42,11 @@ This script performs several tasks to take the given multifile dataset, consolid
 ## The tidy data file
 The output file, **SamsungTidyMeans.txt** is written to the working directory. It can be read back into R using the following code:
 
-> samsungmeans<-read.table("SamsungTidyMeans.txt", header=TRUE)
+`> tidydf<-read.table("SamsungTidyMeans.txt", header=TRUE)`
 
 And viewed in the preview window using: 
 
-> View(samsungmeans)
+`> View(tidaydf)`
 
 This file is presented in the **wide format** (one of the two options for the project) and has 180 observations of 68 variables.
 
@@ -58,4 +58,5 @@ Separating variable names by periods is the preferred method recommended by [**G
 
 Baath, R. 2012. The State of Naming Conventions in R. The R Journal 4(2): 74:75.
 
-
+## Additional information
+The tidy dataset **SamsungTidyMeans.txt** has been included in this repo incase there is any issue with the upload to the course project.
