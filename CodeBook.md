@@ -9,9 +9,9 @@ This is the course project for Coursera's Getting and Cleaning Data course. It u
 
 ####Collection of the raw data
 
-Raw data for this project was obtained from [this link] ("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip") and were downloaded into the working directory.
+Raw data for this project was obtained from  "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" and were downloaded into the working directory.
     
-A full description of the raw dataset is available [here]("http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones")
+A full description of the raw dataset is available at "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
     
 ####Guide to creating the tidy data file
 The tidy data file, **SamsgungTidyMeans.txt** was created from the provided multi-file dataset labelled **UCI HAR Dataset**. To create this file, the provided R script, **run_analysis.R** performs several tasks including consolodating the files into a single dataframe, adding descriptive variable names and activity labels and calculating the means for each unique subject and activity combination. More details on steps to create the tidy data file are outlined in **README.md** file and are explained within the provided R script.
