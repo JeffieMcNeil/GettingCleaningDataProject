@@ -9,9 +9,9 @@ This is the course project for Coursera's Getting and Cleaning Data course. It u
 
 ####Collection of the raw data
 
-Raw data for this project was obtained from  "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" and were downloaded into the working directory.
+Raw data for this project was obtained from  [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and were downloaded into the working directory.
     
-A full description of the raw dataset is available at "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
+A full description of the raw dataset is available [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
     
 ####Guide to creating the tidy data file
 The tidy data file, **SamsgungTidyMeans.txt** was created from the provided multi-file dataset labelled **UCI HAR Dataset**. To create this file, the provided R script, **run_analysis.R** performs several tasks including consolodating the files into a single dataframe, adding descriptive variable names and activity labels and calculating the means for each unique subject and activity combination. More details on steps to create the tidy data file are outlined in **README.md** file and are explained within the provided R script.
@@ -21,7 +21,7 @@ To load the tidy data file in R, use the following code `>dfname<-read.table("Sa
 And to view in the preview window use `>View(dfname)` 
 
 ##Description of the variables in the tiny_data.txt file
-The file SamsungTidyMeans.txt is a 220KB file that contains 180 rows of 68 variables and a header row of variable names. 
+The file **SamsungTidyMeans.txt** is a 220KB file that contains 180 rows of 68 variables and a header row of variable names. 
 
 
 ####**subjectid** (integer)     
