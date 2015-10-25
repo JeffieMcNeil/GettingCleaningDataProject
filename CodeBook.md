@@ -9,7 +9,7 @@ This is the course project for Coursera's Getting and Cleaning Data course. It u
 
 ####Collection of the raw data
 
-Raw data for this project was obtained from [this link]("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip") and were downloaded into the working directory.
+Raw data for this project was obtained from [this link] ("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip") and were downloaded into the working directory.
     
 A full description of the raw dataset is available [here]("http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones")
     
