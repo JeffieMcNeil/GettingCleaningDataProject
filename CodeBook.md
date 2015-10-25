@@ -46,7 +46,8 @@ These represent the mean of each of the mean and standard deviation values of th
 
 3 *Measure -* gyroscope, gyroscopejerk, gyroscopemag, gyroscopejerkmag,     accellerometer, accellerometerjerk, accellerometermag, accellerometerjerkmag      
 
-4 *Calculation-* mean, std (standard deviation)  
+4 *Calculation-* mean, std (standard deviation) 
+
 5 *Axis-* x,y,z (if applicable)  
    
 
