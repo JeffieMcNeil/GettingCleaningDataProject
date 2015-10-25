@@ -17,7 +17,7 @@ This script performs several tasks to take the given multifile dataset, consolid
 
 2. Read each file and assign it into an object.Files used are:      
     *   x_test.txt (test dataset)  
-    *   X_train.txt (training dataset)  
+    *   x_train.txt (training dataset)  
     *   y_test.txt (activities for test dataset)  
     *   y_train.txt (activities for training datset)  
     *   subject_test.txt (subject codes for test dataset)  
